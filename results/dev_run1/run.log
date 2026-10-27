@@ -1,0 +1,5 @@
+OCR done for 320 pages
+rules: 320 pages, field accuracy 0.843
+llm: 48 pages, field accuracy 0.638
+hybrid: 320 pages, field accuracy 0.848
+wrote results\summary.json

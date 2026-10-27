@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docextract"
+version = "0.1.0"
+description = "Scanned reports to verified JSON: synthetic scans, OCR, rule and LLM extraction, validation-based routing to human review, and honest field-accuracy measurement"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26", "pillow>=10.0", "rapidocr-onnxruntime>=1.3", "httpx>=0.27", "pydantic>=2.6", "typer>=0.12", "rich>=13.7", "matplotlib>=3.8", "scipy>=1.11", "rapidfuzz>=3.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+docextract = "docextract.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B905", "E501"]

@@ -1,0 +1,252 @@
+{
+  "docs": 40,
+  "seed": 0,
+  "modes": {
+    "rules": {
+      "all_pages": {
+        "docs": 160,
+        "field_accuracy": 0.9014423076923077,
+        "field_ci95": [
+          0.8878829837653326,
+          0.9135214991857707
+        ],
+        "doc_all_correct": 0.75,
+        "doc_ci95": [
+          0.68125,
+          0.81875
+        ],
+        "headline_f1": 0.9125214408233276,
+        "mean_cer": 0.03550132854107742
+      },
+      "llm_sample_pages": {
+        "docs": 160,
+        "field_accuracy": 0.9014423076923077,
+        "field_ci95": [
+          0.8878829837653326,
+          0.9135214991857707
+        ],
+        "doc_all_correct": 0.75,
+        "doc_ci95": [
+          0.68125,
+          0.81875
+        ],
+        "headline_f1": 0.9125214408233276,
+        "mean_cer": 0.03550132854107742
+      },
+      "per_field": {
+        "currency": 0.85625,
+        "report_date": 0.76875,
+        "news_count": 0.93125,
+        "bid": 0.91875,
+        "ask": 0.93125,
+        "open": 0.94375,
+        "previous_close": 0.9375,
+        "high": 0.96875,
+        "low": 0.9375,
+        "change": 0.81875,
+        "change_percent": 0.825,
+        "high_52week": 0.93125,
+        "low_52week": 0.95
+      },
+      "tradeoff": [
+        {
+          "threshold": 0.0,
+          "auto_coverage": 1.0,
+          "review_burden": 0.0,
+          "accuracy_of_auto": 0.9014423076923077,
+          "final_error_rate": 0.0985576923076923
+        },
+        {
+          "threshold": 0.2,
+          "auto_coverage": 0.9346153846153846,
+          "review_burden": 0.06538461538461537,
+          "accuracy_of_auto": 0.963477366255144,
+          "final_error_rate": 0.03413461538461538
+        },
+        {
+          "threshold": 0.4,
+          "auto_coverage": 0.9201923076923076,
+          "review_burden": 0.07980769230769236,
+          "accuracy_of_auto": 0.9728317659352143,
+          "final_error_rate": 0.025
+        },
+        {
+          "threshold": 0.5,
+          "auto_coverage": 0.8721153846153846,
+          "review_burden": 0.12788461538461537,
+          "accuracy_of_auto": 0.9884233737596472,
+          "final_error_rate": 0.010096153846153847
+        },
+        {
+          "threshold": 0.6,
+          "auto_coverage": 0.8706730769230769,
+          "review_burden": 0.12932692307692306,
+          "accuracy_of_auto": 0.988404196576477,
+          "final_error_rate": 0.010096153846153847
+        },
+        {
+          "threshold": 0.7,
+          "auto_coverage": 0.8629807692307693,
+          "review_burden": 0.13701923076923073,
+          "accuracy_of_auto": 0.9888579387186629,
+          "final_error_rate": 0.009615384615384616
+        },
+        {
+          "threshold": 0.8,
+          "auto_coverage": 0.8413461538461539,
+          "review_burden": 0.15865384615384615,
+          "accuracy_of_auto": 0.9897142857142858,
+          "final_error_rate": 0.008653846153846154
+        },
+        {
+          "threshold": 0.9,
+          "auto_coverage": 0.7528846153846154,
+          "review_burden": 0.24711538461538463,
+          "accuracy_of_auto": 0.9980842911877394,
+          "final_error_rate": 0.0014423076923076924
+        },
+        {
+          "threshold": 0.95,
+          "auto_coverage": 0.6293269230769231,
+          "review_burden": 0.37067307692307694,
+          "accuracy_of_auto": 0.9992360580595875,
+          "final_error_rate": 0.0004807692307692308
+        },
+        {
+          "threshold": 0.98,
+          "auto_coverage": 0.3091346153846154,
+          "review_burden": 0.6908653846153846,
+          "accuracy_of_auto": 1.0,
+          "final_error_rate": 0.0
+        }
+      ]
+    }
+  },
+  "by_severity": {
+    "rules": {
+      "0": {
+        "docs": 40,
+        "field_accuracy": 1.0,
+        "field_ci95": [
+          0.9926664854414006,
+          0.9999999999999999
+        ],
+        "doc_all_correct": 1.0,
+        "doc_ci95": [
+          1.0,
+          1.0
+        ],
+        "headline_f1": 1.0,
+        "mean_cer": 0.010961000197961642
+      },
+      "1": {
+        "docs": 40,
+        "field_accuracy": 1.0,
+        "field_ci95": [
+          0.9926664854414006,
+          0.9999999999999999
+        ],
+        "doc_all_correct": 1.0,
+        "doc_ci95": [
+          1.0,
+          1.0
+        ],
+        "headline_f1": 1.0,
+        "mean_cer": 0.012767167459969914
+      },
+      "2": {
+        "docs": 40,
+        "field_accuracy": 1.0,
+        "field_ci95": [
+          0.9926664854414006,
+          0.9999999999999999
+        ],
+        "doc_all_correct": 1.0,
+        "doc_ci95": [
+          1.0,
+          1.0
+        ],
+        "headline_f1": 1.0,
+        "mean_cer": 0.021972320565736562
+      },
+      "3": {
+        "docs": 40,
+        "field_accuracy": 0.6057692307692307,
+        "field_ci95": [
+          0.5631373965224712,
+          0.6468497446285942
+        ],
+        "doc_all_correct": 0.0,
+        "doc_ci95": [
+          0.0,
+          0.0
+        ],
+        "headline_f1": 0.5321100917431193,
+        "mean_cer": 0.09630482594064155
+      }
+    }
+  },
+  "sample_pages": 0,
+  "by_layout": {
+    "kv": {
+      "docs": 40,
+      "field_accuracy": 0.9057692307692308,
+      "field_ci95": [
+        0.8775986733173623,
+        0.9279883590985435
+      ],
+      "doc_all_correct": 0.75,
+      "doc_ci95": [
+        0.625,
+        0.875
+      ],
+      "headline_f1": 0.9152542372881356,
+      "mean_cer": 0.028794232427242984
+    },
+    "dots": {
+      "docs": 40,
+      "field_accuracy": 0.9057692307692308,
+      "field_ci95": [
+        0.8775986733173623,
+        0.9279883590985435
+      ],
+      "doc_all_correct": 0.75,
+      "doc_ci95": [
+        0.625,
+        0.875
+      ],
+      "headline_f1": 0.9253731343283582,
+      "mean_cer": 0.046471980110686664
+    },
+    "table": {
+      "docs": 40,
+      "field_accuracy": 0.9134615384615384,
+      "field_ci95": [
+        0.8861620502031671,
+        0.9346967742964527
+      ],
+      "doc_all_correct": 0.75,
+      "doc_ci95": [
+        0.625,
+        0.875
+      ],
+      "headline_f1": 0.9161290322580644,
+      "mean_cer": 0.02678463070672251
+    },
+    "json": {
+      "docs": 40,
+      "field_accuracy": 0.8807692307692307,
+      "field_ci95": [
+        0.8500855493298338,
+        0.9058681588140021
+      ],
+      "doc_all_correct": 0.75,
+      "doc_ci95": [
+        0.625,
+        0.875
+      ],
+      "headline_f1": 0.8888888888888888,
+      "mean_cer": 0.039954470919657516
+    }
+  }
+}
