@@ -1,0 +1,5 @@
+OCR done for 320 pages
+rules: 320 pages, field accuracy 0.905
+llm: 48 pages, field accuracy 0.670
+hybrid: 320 pages, field accuracy 0.906
+wrote results\heldout\summary.json
